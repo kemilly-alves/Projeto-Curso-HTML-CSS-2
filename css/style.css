@@ -70,7 +70,7 @@ form{
 
 input[type="password"], input[type="text"]{
     background-color: #ffffff;
-    border: 1px solid rpg(236, 234, 234);
+    border: 1px solid rgb(236, 234, 234);
     height: 40px;
     border-radius: 4px;
     margin-top: 10px;
@@ -135,4 +135,26 @@ input[type="submit"]{
 .app-buttons img{
     height: 40px;
     padding: 0 2px;
+}
+
+footer{
+    text-align: center;
+    height: 50px;
+    margin-top: -50px;
+}
+
+footer a{
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.text-small{
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+    text-transform: uppercase;
+    padding-left: 20px;
+    display: inline-block;
 }
